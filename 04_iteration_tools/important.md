@@ -1,8 +1,9 @@
 # Behind the scene of loops
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c34906e2-0380-4bd7-89ca-b71442654dab/e747a1e0-0ebf-4870-9a3a-8b7530de0b30/image.png)
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/2e217268-535f-457e-8f50-50e571b6782c">
 
-Understanding what happens "behind the scenes" with loops can give insight into how Python executes loops efficiently.
+Understanding what happens "behind the scenes" with loops can give 
+insight into how Python executes loops efficiently.
 
 ### 1. **Loop Compilation and Execution**
 
