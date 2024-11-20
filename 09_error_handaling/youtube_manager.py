@@ -52,7 +52,8 @@ def delete_video(videos):
         save_data_helper(videos)
     else:
         print("Invalid video number. Please try again")
-        
+    print("Video deleted successfully")
+
 
 def main():
     videos = load_data()
@@ -64,7 +65,7 @@ def main():
         print("1. List all youtube videos")
         print("2. Add a youtube video")
         print("3. Update a youtube video details")
-        print("3. delete a youtube video")
+        print("4. delete a youtube video")
         print("5. Exit the application")
         choice = input("Enter your choice: ")
         # print(videos)
