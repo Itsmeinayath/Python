@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from bson import ObjectId
 # never expose the connection string in the code
-client = MongoClient("mongodb+srv://youtubepy:youtubepy@cluster0.2cpnc.mongodb.net/ytmanager", tlsAllowInvalidCertificates=True)
+client = MongoClient("mongodb+srv://<database name>:<pass word>@cluster0.2cpnc.mongodb.net/", tlsAllowInvalidCertificates=True)
 #
 # Here "ytmanager" is the name of the database
 db = client["ytmanager"]
